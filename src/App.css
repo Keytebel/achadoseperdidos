@@ -1,0 +1,118 @@
+
+.cabecalho {
+  background-color: #6a3d9a;
+  color: white;
+  padding: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  width: 85%;
+  margin: 25px auto;
+}
+
+.titulo-pagina {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 15px;
+  border: 1px solid #d5c4e8;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+textarea {
+  height: 100px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+button,
+.botao {
+  background-color: #8054b8;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px 5px 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+}
+
+button:hover,
+.botao:hover {
+  background-color: #5b3288;
+}
+
+.secundario {
+  background-color: #777;
+}
+
+.excluir {
+  background-color: #b83250;
+}
+
+.card-item {
+  background-color: white;
+  padding: 18px;
+  margin: 15px 0;
+  border: 1px solid #e1d6ed;
+  border-radius: 6px;
+}
+
+.card-item a {
+  color: #6a3d9a;
+}
+
+.filtros {
+  display: flex;
+  gap: 10px;
+}
+
+.lista {
+  margin-top: 20px;
+}
+
+.erro {
+  color: #b83250;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+
+  .cabecalho {
+    display: block;
+  }
+
+  .filtros {
+    display: block;
+  }
+
+  .titulo-pagina {
+    flex-wrap: wrap;
+  }
+}
